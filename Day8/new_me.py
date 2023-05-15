@@ -1,16 +1,17 @@
 # I will create a list of fruits to buy
 # I will go to market and see discount prices
 # This file uses modules
-import old
+# import old_me
 import sys
 
-# from packages.list import *
+
+from packages.list import *
 
 # absolute imports
-from packages.list.fruits import add_fruit, remove_fruit
+# from packages.list.fruits import add_fruit, remove_fruit
 # can also be done by assigning object to a variable
 from packages.list import vegetables as veg
-from packages.shop.price import discount
+from packages.shop import *
 
 # more ways to import
 # import packages.list.fruits
@@ -37,4 +38,4 @@ veg.add_vegetable('tomato', list_to_buy)
 veg.add_vegetable('potato', list_to_buy)
 
 # how much each costs after discount?
-print(discount(list_to_buy))
+# print(discount(list_to_buy))

@@ -6,8 +6,9 @@ price_of_foods = {
     'potato': 400
 }
 
-
-# I am more happy here
+# from ..list.fruits import add_fruit
+# I am m
+# ore happy here
 def discount(my_list, discount=0.10):
     """
     this function returns price after discount
